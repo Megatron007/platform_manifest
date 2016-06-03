@@ -476,5 +476,5 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
   
   <!--Dragon TC -->
-  <project path="prebuilts/clang/linux-x86/host/3.9" name="f100cleveland/dragontc-3.9" groups="pdk,linux" remote="bb" revision="smitty" />
+  <project path="prebuilts/clang/linux-x86/host/3.9" name="f100cleveland/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />
 </manifest>
