@@ -34,6 +34,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" /> 
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -198,6 +199,7 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
@@ -397,7 +399,6 @@
   </project>
   <project path="art" name="art" remote="screwd" revision="m" />
   <project path="bionic" name="bionic" remote="screwd" revision="m" />
-  <project path="dalvik" name="dalvik" remote="screwd" revision="m" />
   <project path="development" name="development" remote="screwd" revision="m" />
   <project path="device/asus/flo" name="device_asus_flo" remote="screwd" revision="m" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="m" />
@@ -410,7 +411,6 @@
   <project path="external/guava" name="external_guava" remote="screwd" revision="m" />
   <project path="external/libpng" name="external_libpng" remote="screwd" revision="m" />
   <project path="external/llvm" name="external_llvm" remote="screwd" revision="m" />
-  <project path="external/proguard" name="external_proguard" remote="screwd" revision="m" />
   <project path="external/sepolicy" name="external_sepolicy" remote="screwd" revision="m" />
   <project path="external/skia" name="external_skia" remote="screwd" revision="m" />
   <project path="external/v8" name="external_v8" remote="screwd" revision="m" />
