@@ -442,7 +442,6 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="screwd" revision="m"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="m" />
   <project path="packages/apps/ScrewdOTA" name="packages_apps_ScrewdOTA" remote="screwd" revision="m" />
-  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="screwd" revision="m" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="screwd" revision="m" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="m"  />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="screwd" revision="m" />
