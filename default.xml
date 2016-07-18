@@ -422,7 +422,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="m" />
   <project path="frameworks/rs" name="frameworks_rs" remote="screwd" revision="m" />
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="m" />
-  <project path="hardware/broadcom/wlan" name="hardware/broadcom/wlan" remote="screwd" revision="m" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="screwd" revision="m" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="m" />
   <project path="libcore" name="libcore" remote="screwd" revision="m" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="screwd" revision="m" />
