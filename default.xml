@@ -463,7 +463,7 @@
   
   <!-- External repos -->
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="du" revision="m" />
-  <project path="external/busybox" name="PureNexusProject/android_external_busybox" remote="github" revision="mm2" />
+  <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="mm2" />
   <project path="external/google" name="BenzoRoms/external_google" remote="github" revision="marshmallow" />
   
   <!-- UBER TC -->
