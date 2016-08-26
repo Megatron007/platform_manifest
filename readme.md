@@ -28,7 +28,7 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/ScrewdAOSP/platform_manifest -b m
+$ repo init -u https://github.com/ScrewdAOSP/platform_manifest -b n
 ```
 
 ### Downloading the source tree ###
@@ -42,21 +42,22 @@ and their change histories.
 $ repo sync -j4
 ```
 
-## Building ##
+## Building the entire ROM ##
 
 The bundled builder tool `./rom-build.sh`, which is derived from AOSPA, handles all the building steps for 
 the specified device automatically. As the device value, you just feed it with the device codename 
-(for example, 'hammerhead' for the Nexus 5).
+(for example, 'angler' for the Nexus 6p).
 
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
 $ ./rom-build.sh DEVICE
-# So if you want to build for the Nexus 5, run:
-$ ./rom-build.sh hammerhead
+# So if you want to build for the Nexus 6p, run:
+$ ./rom-build.sh angler
 ```
-## That's all for now... ##
+
+If all goes well, you will see a message showing where the completed build is located.
 
 
 
