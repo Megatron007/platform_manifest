@@ -481,7 +481,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -518,8 +517,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="n" />
+  <project path="external/busybox" name="external_busybox" remote="screwd" revision="n" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n" />
+  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n" />
+  <project path="system/core" name="system_core" remote="screwd" revision="n" />
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="n" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
