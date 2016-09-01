@@ -323,7 +323,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -518,6 +517,7 @@
   <project path="external/busybox" name="external_busybox" remote="screwd" revision="n" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="n" />
+  <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="n" />
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n" />
   <project path="system/core" name="system_core" remote="screwd" revision="n" />
