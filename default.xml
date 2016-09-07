@@ -526,4 +526,7 @@
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
+  
+  <!-- OMS -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 </manifest>
