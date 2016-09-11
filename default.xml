@@ -425,7 +425,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -517,6 +516,7 @@
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="n" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="n" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="n" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="n" />
   <project path="system/core" name="system_core" remote="screwd" revision="n" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="n" />
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="n" >
