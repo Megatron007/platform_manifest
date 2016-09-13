@@ -32,7 +32,6 @@
            sync-j="4" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -502,6 +501,7 @@
   <!-- Screw'd  -->
   <project path="platform_manifest" name="platform_manifest" remote="screwd" revision="n" />
   <project path="build" name="build" remote="screwd" revision="n" >
+  <project path="build/kati" name="build_kati" remote="screwd" revision="n" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="n" />
