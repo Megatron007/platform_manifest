@@ -500,8 +500,8 @@
 
   <!-- Screw'd  -->
   <project path="platform_manifest" name="platform_manifest" remote="screwd" revision="n" />
-  <project path="build" name="build" remote="screwd" revision="n" >
   <project path="build/kati" name="build_kati" remote="screwd" revision="n" />
+  <project path="build" name="build" remote="screwd" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="n" />
