@@ -37,8 +37,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -251,7 +249,6 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
@@ -496,6 +493,8 @@
 
   <!-- Screw'd  -->
   <project path="platform_manifest" name="platform_manifest" remote="screwd" revision="n" />
+  <project path="art" name="art" remote="screwd" revision="n" />
+  <project path="bionic" name="bionic" remote="screwd" revision="n" />
   <project path="build/kati" name="build_kati" remote="screwd" revision="n" />
   <project path="build" name="build" remote="screwd" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -504,6 +503,7 @@
   <project path="device/lge/bullhead" name="device_lge_bullhead" remote="screwd" revision="n" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="screwd" revision="n" />
   <project path="external/busybox" name="external_busybox" remote="screwd" revision="n" />
+  <project path="external/skia" name="external_skia" remote="screwd" revision="n" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="n" />
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="n" />
